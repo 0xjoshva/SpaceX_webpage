@@ -1,10 +1,15 @@
 h1 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
 }
 h3 {
   font-size: 22px;
   margin: 0;
+}
+#h3first {
+  text-align: right;
+}
+#h3sec {
   text-align: left;
 }
 #slogan {
@@ -30,4 +35,11 @@ p {
 
 .timeline {
   display: flex;
+}
+img {
+  border: 5px solid #bcd6dc;
+}
+
+.box {
+  width: 40%;
 }
