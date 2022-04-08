@@ -110,4 +110,8 @@
     :-ms-input-placeholder {
      color:#888;
     }
-    
+    footer {
+        color:white;
+        text-align: center;
+        size: 30px;
+    }
