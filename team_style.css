@@ -1,18 +1,23 @@
+/* images into circles and added border */
 img {
   border-radius: 50%;
   border: 8px solid rgb(219, 219, 219);
 }
 
+/*centering images */
 .row {
   display: flex;
   text-align: center;
 }
 
+/*centering images */
 .column {
   flex: 33.33%;
   padding: 100px;
   text-align: center;
 }
+
+/* font */
 body {
   font-family: "Metropolis", sans-serif;
 }
