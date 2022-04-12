@@ -7,17 +7,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
 body {
-  font-family: "Metropolis", sans-serif;
   font-weight: 300;
   font-size: 12px;
   line-height: 30px;
   color: #777;
-  background: rgb(107, 113, 114);
+  font-family: "Metropolis", sans-serif;
+  background-image: url(spacestation.jpg);
+  background-size: 100% auto;
+  color: rgb(255, 255, 255);
 }
 
 .border {
@@ -33,20 +34,25 @@ body {
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+  font: 400 12px/16px "Metropolis", sans-serif;
 }
 
 #contact {
   background: #f9f9f9;
   padding: 25px;
   margin: 50px 0;
+  background: black;
+  background: rgba(0, 0, 0, 0.8);
+  /* blur form */
+  backdrop-filter: blur(3px);
+  border-radius: 3%;
 }
 
 #contact h3 {
-  color: black;
+  color: rgb(255, 255, 255);
   display: block;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 #contact h4 {
@@ -214,4 +220,11 @@ ul img {
   padding-left: 100px;
   padding-right: 10px;
   float: left;
+}
+
+nav {
+  font-size: larger;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
