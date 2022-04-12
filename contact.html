@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceX - Contact</title>
+    <link rel="stylesheet" href="contact_style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css"/>
+  </head>
+  <body>
+     <nav> <!-- navbar -->
+      <ul>
+        <img src="spacexlogo.png" alt="SpaceX Logo" height="22px" />
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="team.html">TEAM</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">MORE</a>
+          <div class="dropdown-content">
+            <a href="services.html">SERVICES</a>
+            <a href="contact.html">CONTACT US</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    
+  <div class="border"> 
+  <form id="contact" action="" method=post>
+    <h3>Get in touch with us</h3>
+    <br>
+    <fieldset>
+      <input placeholder="Name" type="text" tabindex="1" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Email" type="email" tabindex="2">
+    </fieldset>
+    <fieldset>
+      <input placeholder="Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type Message Here...." tabindex="4" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="send" type="send" id="contact-send" data-submit="...Sending">Send</button>
+    </fieldset>
+  </form>
+  <div>
+    <footer>
+     <p><h4> Copywrite at Team1 website 2022
+      Privacy Policy
+      Terms of Use</h4></p>
+    </footer>
+  </div>
