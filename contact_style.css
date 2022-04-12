@@ -101,6 +101,7 @@ fieldset {
 #contact button[type="send"] {
   cursor: pointer;
   width: 100%;
+  height: 35px;
   border: none;
   background: rgb(233, 235, 236);
   color: rgb(121, 117, 117);
@@ -111,6 +112,11 @@ fieldset {
 
 #contact button[type="send"]:active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact button:hover {
+  background-color: rgb(84, 155, 221);
+  color: black;
 }
 
 #contact input:focus,
