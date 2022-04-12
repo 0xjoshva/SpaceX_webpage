@@ -1,5 +1,6 @@
 body {
   background: rgb(6, 18, 54);
+  font-family: "Metropolis", sans-serif;
 }
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -119,4 +120,29 @@ li.dropdown {
 }
 .dropdown:hover .dropdown-content {
   display: contents;
+}
+.container .btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: grey;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn:hover {
+  background-color: rgba(52, 59, 248, 0.918);
+}
+#logo {
+  padding-top: 5px;
+  padding-left: 100px;
+  padding-right: 10px;
+  float: left;
+  border: none;
 }
