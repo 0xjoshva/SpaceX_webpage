@@ -144,19 +144,19 @@ li.dropdown {
 }
 
 #mission {
-  border-radius: 30px;
-
-  width: 840px;
-  height: 240px;
-  position: absolute;
-  top: 90%;
+  border-radius: 26px;
+  width: 1118px;
+  height: 109px;
+  position: relative;
+  padding-top: 10px;
+  top: 120%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  bottom: 10px;
+  transform: translateX(-50%) translateY(-20%);
 
   background: black;
   background: rgba(0, 0, 0, 0.8);
 
+  /* only blur background and not text */
   backdrop-filter: blur(3px);
 }
 
@@ -165,4 +165,11 @@ ul img {
   padding-left: 100px;
   padding-right: 10px;
   float: left;
+}
+
+section {
+  position: absolute;
+  top: 101%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
